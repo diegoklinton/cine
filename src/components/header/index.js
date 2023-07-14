@@ -1,20 +1,22 @@
 import { Link } from "react-router-dom"
-import { BiSolidSearch} from "react-icons/bi";
+import { BiSolidSearch } from "react-icons/bi";
 import './styleHeader.css'
 
-function Header () {
+function Header() {
     return (
-        <nav className="navbar">            
+        <nav className="navbar">
             <p className="title-nav">
                 <Link className="link" to="/"> Cine Explorer </Link>
-            </p>                
+            </p>
             <form className="search">
-                <input className="search-field" type="text" placeholder="Buscar filme" required></input>
-                <button className="search-button" type="submit"><BiSolidSearch className="lupa"/></button>
-            </form>          
+                <input className="searchField" type="text" placeholder="Buscar filme" required></input>
+                <button className="search-button" type="submit"><BiSolidSearch className="lupa" /></button>
+            </form>
         </nav>
 
     )
 }
 
 export default Header
+
+

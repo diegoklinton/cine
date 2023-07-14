@@ -32,11 +32,12 @@
   align-items: center;
 }
 
-.search-field {
+.searchField {
   width: 10rem;
   height: 3rem;
   border-radius: 1rem 0rem 0rem 1rem;
-  border: none;  
+  border: none;
+  outline: none;
 }
 
 .search-button{
