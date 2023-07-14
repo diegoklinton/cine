@@ -1,0 +1,10 @@
+:root {
+  --amarelo--principal: #ffbd03;
+  --vermelho--efeito: rgb(248, 54, 29);
+}
+
+h1 {
+  text-align: center;
+  margin: 4rem 0;
+  color: var(--amarelo--principal);
+}

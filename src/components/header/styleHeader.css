@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content:space-between;    
+}
+
+.title-nav {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.link{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.link:hover{
+  color: #ffbd03;
+  cursor: pointer;
+}
+
+.search{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.search-field {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1rem 0rem 0rem 1rem;
+  border: none;  
+}
+
+.search-button{
+  background: var(--amarelo--principal);
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  color: var(--vermelho--efeito);
+  padding: rem;
+  border: none;
+  border-radius: 0rem 1rem 1rem 0rem;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+BiSolidSearch{
+  color: blue;
+}
+
+.search-field::placeholder{
+  padding: 1rem;
+}

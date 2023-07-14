@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import './Details.css'
 
 function Details (){
     const {id} = useParams();
@@ -37,13 +38,13 @@ function Details (){
         <div className="movie">
             <img id= "imagem" src={movie.image} alt="imagem do filme"></img>
             <div className="details">
-                <h1>{movie.title}</h1>
+                <h1 className="title-details">{movie.title}</h1>
                 <span id="spanPag2">Sinopse: {movie.sinopse}</span>
                 <span id="spanPag2">Tempo de duração: {movie.time } minutos</span>
                 <span id="spanPag2">Gêneros: </span>
                 <span id="spanPag2">Classificação: </span>
-                <span className="release-date">Data de lançamento: { movie.releaseDate} </span>
-                <Link to="/"><button>Voltar</button></Link>
+                <span id="spanPag2">Data de lançamento: { movie.releaseDate} </span>
+                <Link to="/"><button className="back-button">Voltar</button></Link>
             </div>
         </div>
     )
