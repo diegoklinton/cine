@@ -9,7 +9,7 @@ function Header () {
                 <Link className="link" to="/"> Cine Explorer </Link>
             </p>                
             <form className="search">
-                <input className="search-field" type="text" placeholder="Buscar filme"></input>
+                <input className="search-field" type="text" placeholder="Buscar filme" required></input>
                 <button className="search-button" type="submit"><BiSolidSearch className="lupa"/></button>
             </form>          
         </nav>
